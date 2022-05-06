@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scottdigo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="description"
+    content="Bienvenid@s a mi página web donde puede observar mis trabajos, soy Scottdigo: Front-end Developer y Diseñador Gráfico">
+  <link rel="canonical" href="https://scottdigo.github.io/ScottdigoPage">
+  <link rel="icon" type="image/png" href="https://scottdigo.github.io/ScottdigoPage/assets/favicon.png">
+  <link rel="apple-touch-icon" href="https://scottdigo.github.io/ScottdigoPage/assets/favicon.png">
+  <meta name="theme-color" content="#000">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:title" name="twitter:title" content="Scottdigo">
+  <meta property="og:image" name="twitter:image" content="https://scottdigo.github.io/ScottdigoPage/assets/card.png">
+  <meta property="og:url" name="twitter:url" content="https://scottdigo.github.io/ScottdigoPage">
+  <meta property="og:description" name="twitter:description"
+    content="Bienvenid@s a mi página web donde puede observar mis trabajos, soy Scottdigo: Front-end Developer y Diseñador Gráfico">
+</head>
+
+<body>
+  <header class="header " id="Inicio">
+    <section class="container">
+      <div class="container__logo">
+        <a href="index.html">
+          <img class="img" src="assets/logo.svg" alt="logo">
+        </a>
+      </div>
+      <button class="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" transform: msFilter;>
+          <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+        </svg>
+        <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" transform:
+          msFilter;>
+          <path
+            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+          </path>
+        </svg>
+      </button>
+      <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </section>
+  </header>
+
+  <div class="home-social">
+    <a href="https://www.linkedin.com/in/scottdigo/" target="_blank" class="home-social-media " rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path
+          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+      </svg>
+    </a>
+    <a href="https://github.com/Scottdigo" class="home-social-media" rel="noopener" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+        <path
+          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/scottdigo/?hl=es-la" target="_blank" class="home-social-media" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path
+          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+      </svg>
+    </a>
+  </div>
+
+  <section id="inicio" class="home">
+    <article class="hero-image">
+      <aside class="hero-image-opacity">
+        <div class="hero-image-content">
+          <h2 class="hero-image-title">Hagamos Diseños<br /> Increibles
+          </h2>
+          <a href="#contacto" class="btn">Contáctame</a>
+        </div>
+      </aside>
+    </article>
+  </section>
+
+  <section id="acerca" class="about section container full-lg-screen ">
+    <article class="text-center">
+      <h2>Scott</h2>
+      <h3>Front-end y Diseñador Gráfico</h3>
+      <div>
+        <p>En el 2019 comencé mi carrera de Diseñador Gráfico colaborando con empresas a nivel local. Debido a la
+          pandemia tuve que
+          improvisar, así que inicie a trabajar de manera Freelance para agencias y personas particulares, manejando
+          el
+          contenido gráfico de
+          sus redes
+          sociales.</p>
+        <p>Hace 7 meses empecé a estudiar el arte de la programación para ser Front-end Developer, lo cual me ha llevado
+          a tener
+          pequeños proyectos tanto personales como para clientes.</p>
+        <p>El placer de ver a una persona contenta con mi trabajo no tiene comparación alguna.</p>
+      </div>
+    </article>
+    <article class="margin-bottom logo-scale">
+      <a href="assets/CV.pdf" rel="noopener" target="_blank">
+        <img src="assets/logo-solo.png" alt="logo">
+      </a>
+      <h2>Toca Mi Logo para Ver mi CV</h2>
+    </article>
+    <article class="skills">
+      <h2 class="skills-title">Mis Habilidades</h2>
+      <article class="skills-img">
+        <img src="assets/skills/skill.svg" alt="html">
+        <img src="assets/skills/skill-2.svg" alt="css">
+        <img src="assets/skills/skill-3.svg" alt="javascript">
+        <img src="assets/skills/skill-4.svg" alt="git">
+        <img src="assets/skills/skill-5.svg" alt="github">
+        <img src="assets/skills/skill-6.svg" alt="figma">
+        <img src="assets/skills/skill-7.svg" alt="photoshop">
+        <img src="assets/skills/skill-8.svg" alt="illustrator">
+        <img src="assets/skills/skill-9.svg" alt="illustrator">
+      </article>
+    </article>
+  </section>
+
+  <section id="servicios" class="services margin- section-2">
+    <div class="container full-lg-screen ">
+      <h2 class="section-title">Mis Servicios</h2>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="48px" viewBox="0 0 24 24"
+          width="48px">
+          <g>
+            <rect fill="none" height="24" width="24" x="0" />
+          </g>
+          <g>
+            <g>
+              <path
+                d="M20,18c1.1,0,2-0.9,2-2V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v10c0,1.1,0.9,2,2,2H0v2h24v-2H20z M4,6h16v10H4V6z" />
+            </g>
+          </g>
+        </svg>
+        <h3>Diseño y Desarrollo Web</h3>
+        <p>
+          Creo tu sitio web desde cero de acuerdo a tus necesidades. Hago el prototipo, te lo muestro, y si te gusta
+          comienzo con el maqueado de la página.
+        </p>
+      </article>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#000000">
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z" />
+        </svg>
+        </svg>
+        <h3>Responsive Design</h3>
+        <p>
+          Tu Web será adaptable para visualizarlo desde diferentes dispositivos como: Teléfonos, Tablets,
+          Computadores.
+        </p>
+      </article>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M19 15v4H5v-4h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM7 18.5c-.82 0-1.5-.67-1.5-1.5s.68-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM19 5v4H5V5h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM7 8.5c-.82 0-1.5-.67-1.5-1.5S6.18 5.5 7 5.5s1.5.68 1.5 1.5S7.83 8.5 7 8.5z" />
+        </svg>
+        </svg>
+        <h3>Hosting y Dominio</h3>
+        <p>
+          Me encargaré del alojamiento y del nombre de tu dominio para que las personas puedan encontrar tu página
+          fácilmente.
+        </p>
+      </article>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z" />
+        </svg>
+        <h3>Redes Sociales</h3>
+        <p>
+          Diseño tus post para las Redes Sociales. Si no tienes una línea gráfica definida, la crearé para ti.
+        </p>
+      </article>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height="48px" viewBox="0 0 20 20"
+          width="48px" fill="#000000">
+          <g>
+            <rect fill="none" height="20" width="20" />
+          </g>
+          <g>
+            <g>
+              <path
+                d="M10,2c-4.41,0-8,3.59-8,8s3.59,8,8,8c1.1,0,2-0.9,2-2c0-0.49-0.18-0.96-0.51-1.34c-0.24-0.3-0.02-0.66,0.3-0.66h1.42 c2.65,0,4.8-2.15,4.8-4.8C18,5.23,14.41,2,10,2z M13.2,12.5h-1.42c-1.05,0-1.9,0.85-1.9,1.9c0,0.47,0.19,0.92,0.47,1.25 c0.34,0.39,0.02,0.85-0.36,0.85c-3.58,0-6.5-2.92-6.5-6.5S6.42,3.5,10,3.5s6.5,2.56,6.5,5.7C16.5,11.02,15.02,12.5,13.2,12.5z" />
+              <circle cx="14.5" cy="9.5" r="1.25" />
+              <circle cx="12" cy="6.5" r="1.25" />
+              <circle cx="5.5" cy="9.5" r="1.25" />
+              <circle cx="8" cy="6.5" r="1.25" />
+            </g>
+          </g>
+        </svg>
+        </svg>
+        <h3>Diseño Digital</h3>
+        <p>
+          Banners, Flyers, Cover Art, Miniaturas, Ilustraciones; son fácilmente realizables para cualquier
+          medio
+          digital que tengas.
+        </p>
+      </article>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#000000">
+          <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M9 21h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.58 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2zM9 9l4.34-4.34L12 10h9v2l-3 7H9V9zM1 9h4v12H1z" />
+        </svg>
+        <h3>Puntualidad y Satisfacción</h3>
+        <p>
+          Haré todo lo posible para cumplir sus expectativas, tanto en la hora de entrega, como en el diseño acordado.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="portafolio" class="porfolio section container  ">
+    <h2 class="section-title">Portafolio</h2>
+    <h3 class="card-title"> Redes Sociales</h3>
+    <article class="gallery">
+      <img src="assets/Porfolio/img-1.png" alt="imagen de galeria 1" loading="lazy">
+      <img src="assets/Porfolio/img-2.png" alt="imagen de galeria 2" loading="lazy">
+      <img src="assets/Porfolio/img-3.png" alt="imagen de galeria 3" loading="lazy">
+      <img src="assets/Porfolio/img-4.png" alt="imagen de galeria 4" loading="lazy">
+      <img src="assets/Porfolio/img-5.png" alt="imagen de galeria 5" loading="lazy">
+      <img src="assets/Porfolio/img-6.png" alt="imagen de galeria 6" loading="lazy">
+      <img src="assets/Porfolio/img-7.png" alt="imagen de galeria 7" loading="lazy">
+      <img src="assets/Porfolio/img-8.png" alt="imagen de galeria 8" loading="lazy">
+      <img src="assets/Porfolio/img-9.png" alt="imagen de galeria 9" loading="lazy">
+      <img src="assets/Porfolio/img-10.png" alt="imagen de galeria 10" loading="lazy">
+      <img src="assets/Porfolio/img-11.png" alt="imagen de galeria 11" loading="lazy">
+      <img src="assets/Porfolio/img-12.png" alt="imagen de galeria 12" loading="lazy">
+      <img src="assets/Porfolio/img-13.png" alt="imagen de galeria 13" loading="lazy">
+      <img src="assets/Porfolio/img-14.png" alt="imagen de galeria 14" loading="lazy">
+      <img src="assets/Porfolio/img-15.png" alt="imagen de galeria 15" loading="lazy">
+      <img src="assets/Porfolio/img-16.png" alt="imagen de galeria 16" loading="lazy">
+    </article>
+    <div class="gallery-lightbox ">
+      <div class="gallery-inside ">
+        <img class="img-big content" src="assets/Porfolio/img-1.png" alt="imagen grande de galeria" loading="lazy">
+      </div>
+      <button class="btn-close">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+        </svg>
+      </button>
+      <button class="btn-next">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height="48px" viewBox="0 0 20 20"
+          width="48px">
+          <g>
+            <g>
+              <rect fill="none" height="20" width="20" />
+            </g>
+          </g>
+          <g>
+            <polygon points="4.59,16.59 6,18 14,10 6,2 4.59,3.41 11.17,10" />
+          </g>
+        </svg>
+      </button>
+      <button class="btn-previous">
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px">
+          <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+          <path d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z" />
+        </svg>
+      </button>
+    </div>
+
+    <article class="card-container">
+      <h3 class="card-title">Páginas Web</h3>
+      <div class="card service-card ">
+        <img src="assets/porfolioWeb2.png" alt="imagen de portafolio 1" loading="lazy">
+        <h3>Rabbit</h3>
+        <p>Rabbit es un supermercado con una de las mejores heladerías del país. En esta página podrás ver sus
+          instalaciones, diferencias con la competencia y algunos dibujos animados y alusivos </p>
+        <p class="bold">Hecho con: Html/Css/Jasvascript</p>
+        <a href="https://scottdigo.github.io/Rabbit/" class="btn" rel="noopener" target="_blank">Ver Proyecto</a>
+      </div>
+      <div class="card service-card">
+        <img src="assets/porfolioWeb1.png" alt="imagen de portafolio 2" loading="lazy">
+        <h3>FITTHEAD</h3>
+        <p>FITTHEAD es un gimnasio recientemente inaugurado en la ciudad. En la web encontrarás el equipo que lo
+          conforma y los cambios físicos más impresionantes de sus clientes.
+        <p class="bold">Hecho con: Html/Css/Jasvascript</p>
+        </p>
+        <a href="https://scottdigo.github.io/FITTHEAD/" class="btn" rel="noopener" target="_blank">Ver Proyecto</a>
+      </div>
+      <div class="card service-card">
+        <img src="assets/porfolioWeb3.png" alt="imagen de portafolio 3" loading="lazy">
+        <h3>Delisius</h3>
+        <p>Delisugar es una tienda de repostería la cual tiene una gran cantidad de clientes cada año. En esta web
+          podrás observar algunas de sus creaciones deliciosas, más las ofertas que tienes cada semana. </p>
+        <p class="bold">Hecho con: Html/Css/Jasvascript</p>
+        <a href="https://scottdigo.github.io/Delisius/" class="btn" rel="noopener" target="_blank">Ver Proyecto</a>
+      </div>
+    </article>
+  </section>
+
+  <section id="contacto" class="contact section bg-black ">
+    <div class="contact-form-container container">
+      <h2 class="section-title-2">Contáctame</h2>
+      <aside class="contact-container">
+        <h2>¡Conóceme un poco más!</h2>
+        <div class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+          </svg>
+          <h3 class="contact-title">Github</h3>
+          <a href="https://github.com/Scottdigo" class="contact-button" rel="noopener" target="_blank">
+            <p class="contact-description">Observar</p>
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+          </svg>
+          <h3 class="contact-title">LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/scottdigo/" class="contact-button" rel="noopener" target="_blank">
+            <p class="contact-description">Ver</p>
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+          </svg>
+          <h3 class="contact-title">Instagram</h3>
+          <a href="https://www.instagram.com/scottdigo/?hl=es-la" target="_blank" class="contact-button"
+            rel="nooopener">
+            <p class="contact-description">Sígueme</p>
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+            </svg>
+          </a>
+        </div>
+
+      </aside>
+      <aside class="form-container">
+        <h2>¡Cuéntame en que puedo ayudarte!</h2>
+        <form action="" class="form">
+          <div class="form-div">
+            <label for="n" class="form-tag">Nombre</label>
+            <input type="text" name="name" class="form-input" placeholder="Ingresa tu Nombre" id="n"
+              title="Solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          </div>
+          <div class="form-div">
+            <label for="e" class="form-tag">Email</label>
+            <input type="email" name="email" class="form-input" placeholder="Ingresa tu Email" id="e"
+              title="Email Incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+              required>
+          </div>
+          <div class="form-div form-textarea">
+            <label for="c" class="form-tag">Comtentario</label>
+            <textarea name="comments" id="" cols="30" rows="10" class="form-input"
+              placeholder="¿En qué te puedo ayudar?" id="c" required></textarea>
+          </div>
+          <div class="form-sumbit-loader">
+            <input class="btn form-sumbit" type="submit" value="Enviar">
+            <svg class="contact-form-loader none" width="57" height="57" viewBox="0 0 57 57"
+              xmlns="http://www.w3.org/2000/svg" stroke="#00c509">
+              <g fill="none" fill-rule="evenodd">
+                <g transform="translate(1 1)" stroke-width="2">
+                  <circle cx="5" cy="50" r="5">
+                    <animate attributeName="cy" begin="0s" dur="2.2s" values="50;5;50;50" calcMode="linear"
+                      repeatCount="indefinite" />
+                    <animate attributeName="cx" begin="0s" dur="2.2s" values="5;27;49;5" calcMode="linear"
+                      repeatCount="indefinite" />
+                  </circle>
+                  <circle cx="27" cy="5" r="5">
+                    <animate attributeName="cy" begin="0s" dur="2.2s" from="5" to="5" values="5;50;50;5"
+                      calcMode="linear" repeatCount="indefinite" />
+                    <animate attributeName="cx" begin="0s" dur="2.2s" from="27" to="27" values="27;49;5;27"
+                      calcMode="linear" repeatCount="indefinite" />
+                  </circle>
+                  <circle cx="49" cy="50" r="5">
+                    <animate attributeName="cy" begin="0s" dur="2.2s" values="50;50;5;50" calcMode="linear"
+                      repeatCount="indefinite" />
+                    <animate attributeName="cx" from="49" to="49" begin="0s" dur="2.2s" values="49;5;27;49"
+                      calcMode="linear" repeatCount="indefinite" />
+                  </circle>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </form>
+
+      </aside>
+    </div>
+  </section>
+
+  <article id="gracias" class="modal">
+    <div class="modal-content">
+      <svg width="100%" height="100%" viewBox="0 0 387 387" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <g transform="matrix(1,0,0,1,-158.919,-207.731)">
+          <g>
+            <g>
+              <circle cx="351.996" cy="400.808" r="193.077" style="fill:rgb(255,179,43);" />
+              <path
+                d="M351.996,207.731C458.558,207.731 545.074,294.246 545.074,400.808C545.074,507.37 458.558,267.662 351.996,267.662C245.434,267.662 158.919,507.37 158.919,400.808C158.919,294.246 245.434,207.731 351.996,207.731Z"
+                style="fill:rgb(255,227,105);" />
+              <g transform="matrix(0.862857,0,0,0.862857,48.2737,54.968)">
+                <path
+                  d="M351.996,207.731C458.558,207.731 545.074,294.246 545.074,400.808C545.074,507.37 458.558,568.312 351.996,568.312C245.434,568.312 158.919,507.37 158.919,400.808C158.919,294.246 245.434,207.731 351.996,207.731Z"
+                  style="fill:rgb(255,206,82);" />
+              </g>
+            </g>
+            <g transform="matrix(6.12323e-17,-1,1.20891,7.40244e-17,15.9703,1503.28)">
+              <path
+                d="M1075.88,167.965C1014.63,167.965 964.973,217.619 964.973,278.87C964.973,340.121 1014.63,389.775 1075.88,389.775L1075.88,167.965Z"
+                style="fill:rgb(39,57,65);" />
+              <clipPath id="_clip1">
+                <path
+                  d="M1075.88,167.965C1014.63,167.965 964.973,217.619 964.973,278.87C964.973,340.121 1014.63,389.775 1075.88,389.775L1075.88,167.965Z" />
+              </clipPath>
+              <g clip-path="url(#_clip1)">
+                <g transform="matrix(-0.862908,8.7414e-17,-1.48049e-16,-1,1983.01,556.827)">
+                  <path
+                    d="M1075.88,167.965C1014.63,167.965 964.973,217.619 964.973,278.87C964.973,340.121 1014.63,389.775 1075.88,389.775L1075.88,167.965Z"
+                    style="fill:rgb(20,30,33);" />
+                </g>
+                <g transform="matrix(6.12323e-17,0.827191,-1,5.06508e-17,1531.43,133.225)">
+                  <ellipse cx="176.072" cy="563.502" rx="107.02" ry="52.498" style="fill:rgb(174,45,76);" />
+                  <clipPath id="_clip2">
+                    <ellipse cx="176.072" cy="563.502" rx="107.02" ry="52.498" />
+                  </clipPath>
+                  <g clip-path="url(#_clip2)">
+                    <g transform="matrix(0.742713,4.63121e-32,0,0.742713,45.301,90.2782)">
+                      <ellipse cx="176.072" cy="563.502" rx="107.02" ry="52.498" style="fill:rgb(207,64,84);" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g transform="matrix(0.880509,0,0,0.880509,129.719,-143.288)">
+              <path
+                d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                style="fill:rgb(255,179,43);" />
+            </g>
+            <g transform="matrix(0.880509,0,0,0.880509,129.719,-143.288)">
+              <path
+                d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                style="fill:rgb(255,179,43);" />
+            </g>
+            <g transform="matrix(1,0,0,1,0,1.50637)">
+              <g transform="matrix(0.880509,0,0,0.880509,306.601,-144.794)">
+                <path
+                  d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                  style="fill:rgb(255,179,43);" />
+              </g>
+              <g transform="matrix(0.880509,0,0,0.880509,306.601,-157.597)">
+                <path
+                  d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                  style="fill:rgb(174,45,76);" />
+                <clipPath id="_clip3">
+                  <path
+                    d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z" />
+                </clipPath>
+                <g clip-path="url(#_clip3)">
+                  <g transform="matrix(0.786222,0,0,0.786222,31.0478,113.923)">
+                    <path
+                      d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                      style="fill:rgb(207,64,84);" />
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g transform="matrix(0.880509,0,0,0.880509,129.719,-156.091)">
+              <path
+                d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                style="fill:rgb(174,45,76);" />
+              <clipPath id="_clip4">
+                <path
+                  d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z" />
+              </clipPath>
+              <g clip-path="url(#_clip4)">
+                <g transform="matrix(0.786222,0,0,0.786222,31.0478,113.923)">
+                  <path
+                    d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                    style="fill:rgb(207,64,84);" />
+                </g>
+              </g>
+            </g>
+            <g transform="matrix(0.880509,0,0,0.880509,129.719,-156.091)">
+              <path
+                d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                style="fill:rgb(174,45,76);" />
+              <clipPath id="_clip5">
+                <path
+                  d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z" />
+              </clipPath>
+              <g clip-path="url(#_clip5)">
+                <g transform="matrix(0.786222,0,0,0.786222,31.0478,113.923)">
+                  <path
+                    d="M151.998,524.244C170.685,482.855 208.059,482.855 226.746,496.169C245.434,509.484 245.434,536.113 226.746,562.742C213.665,582.714 176.914,616 151.998,616C127.082,616 90.331,582.714 77.25,562.742C58.563,536.113 58.563,509.484 77.25,496.169C95.937,482.855 133.311,482.855 151.998,524.244Z"
+                    style="fill:rgb(207,64,84);" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+      <article class="contact-form-response">
+        <h3>
+          ¡Muchas Gracias
+          <br>
+          por tu comentario!
+          <br>
+          Me comunicare contigo
+          <br>
+          lo más pronto posible
+        </h3>
+      </article>
+      <svg width="100%" height="100%" viewBox="0 0 387 387" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <g transform="matrix(1,0,0,1,-1104.19,-193.226)">
+          <g>
+            <g transform="matrix(1,0,0,1,945.274,-14.5049)">
+              <circle cx="351.996" cy="400.808" r="193.077" style="fill:rgb(255,179,43);" />
+              <path
+                d="M351.996,207.731C458.558,207.731 545.074,294.246 545.074,400.808C545.074,507.37 458.558,267.662 351.996,267.662C245.434,267.662 158.919,507.37 158.919,400.808C158.919,294.246 245.434,207.731 351.996,207.731Z"
+                style="fill:rgb(255,227,105);" />
+              <g transform="matrix(0.862857,0,0,0.862857,48.2737,54.968)">
+                <path
+                  d="M351.996,207.731C458.558,207.731 545.074,294.246 545.074,400.808C545.074,507.37 458.558,568.312 351.996,568.312C245.434,568.312 158.919,507.37 158.919,400.808C158.919,294.246 245.434,207.731 351.996,207.731Z"
+                  style="fill:rgb(255,206,82);" />
+              </g>
+            </g>
+            <g transform="matrix(6.12323e-17,-1,1.20891,7.40244e-17,961.244,1488.78)">
+              <path
+                d="M1075.88,167.965C1014.63,167.965 964.973,217.619 964.973,278.87C964.973,340.121 1014.63,389.775 1075.88,389.775L1075.88,167.965Z"
+                style="fill:rgb(39,57,65);" />
+              <clipPath id="_clip1">
+                <path
+                  d="M1075.88,167.965C1014.63,167.965 964.973,217.619 964.973,278.87C964.973,340.121 1014.63,389.775 1075.88,389.775L1075.88,167.965Z" />
+              </clipPath>
+              <g clip-path="url(#_clip1)">
+                <g transform="matrix(-0.862908,8.7414e-17,-2.13202e-16,-1.44008,1971.01,679.552)">
+                  <path
+                    d="M1075.88,167.965C1014.63,167.965 964.973,217.619 964.973,278.87C964.973,340.121 1014.63,389.775 1075.88,389.775L1075.88,167.965Z"
+                    style="fill:white;" />
+                </g>
+                <g transform="matrix(6.12323e-17,0.827191,-1,5.06508e-17,1531.43,133.225)">
+                  <ellipse cx="176.072" cy="563.502" rx="107.02" ry="52.498" style="fill:rgb(174,45,76);" />
+                  <clipPath id="_clip2">
+                    <ellipse cx="176.072" cy="563.502" rx="107.02" ry="52.498" />
+                  </clipPath>
+                  <g clip-path="url(#_clip2)">
+                    <g transform="matrix(0.742713,4.63121e-32,0,0.742713,45.301,90.2782)">
+                      <ellipse cx="176.072" cy="563.502" rx="107.02" ry="52.498" style="fill:rgb(207,64,84);" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g transform="matrix(1.87564,0,0,1.87564,540.46,-1582.61)">
+              <path
+                d="M340.169,1007.56C340.169,1007.56 358.664,1007.17 367.351,1018.86C364.824,1019.02 339.475,1017.91 332.602,1025.02C333.942,1028.49 335.837,1033.08 335.837,1033.08C335.837,1033.08 351.317,1025.18 377.853,1028.49C379.591,1027.55 385.119,1022.81 376.747,1012.38C374.536,1010.01 365.718,998.325 339.628,997.062C339.758,1002.59 340.169,1007.56 340.169,1007.56Z"
+                style="fill:rgb(39,57,65);" />
+            </g>
+            <g transform="matrix(-1.87564,0,0,1.87564,2056.29,-1582.61)">
+              <path
+                d="M340.169,1007.56C340.169,1007.56 358.664,1007.17 367.351,1018.86C364.824,1019.02 339.475,1017.91 332.602,1025.02C333.942,1028.49 335.837,1033.08 335.837,1033.08C335.837,1033.08 351.317,1025.18 377.853,1028.49C379.591,1027.55 385.119,1022.81 376.747,1012.38C374.536,1010.01 365.718,998.325 339.628,997.062C339.758,1002.59 340.169,1007.56 340.169,1007.56Z"
+                style="fill:rgb(39,57,65);" />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </article>
+  <footer class="footer">Sitio hecho por <a href="https://www.instagram.com/scottdigo/?hl=es-la" rel="noopener"
+      target="_blank">@Scottdigo</a></footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>

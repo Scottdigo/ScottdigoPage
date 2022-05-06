@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 110 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-78.0315,-258.732)">
+        <g id="bootstrap-brands.svg" transform="matrix(0.189692,0,0,0.189692,132.663,307.293)">
+            <g transform="matrix(1,0,0,1,-288,-256)">
+                <path d="M333.5,201.4C333.5,179.3 317.9,167.1 290.5,167.1L240.1,167.1L240.1,238.3L282.6,238.3C315.4,238.2 333.5,225 333.5,201.4ZM517,188.6C507.5,157.7 506.1,119.8 507.2,90.5C508.3,60 484.5,32 452.5,32L123.7,32C91.6,32 67.9,60.1 69,90.5C70,119.8 68.7,157.7 59.2,188.6C49.6,219.6 33.5,239.2 7,241.7L7,270.2C33.4,272.7 49.6,292.3 59.2,323.3C68.7,354.2 70.1,392.1 69,421.4C67.9,451.9 91.7,479.9 123.7,479.9L452.4,479.9C484.5,479.9 508.2,451.8 507.1,421.4C506.1,392.1 507.4,354.2 516.9,323.3C526.5,292.3 542.6,272.7 569,270.2L569,241.7C542.7,239.2 526.5,219.6 517,188.6ZM300.2,375.1L202.3,375.1L202.3,136.8L299.7,136.8C343,136.8 371.4,160.2 371.4,196.2C371.4,221.5 352.3,244.1 327.9,248L327.9,249.3C361.1,252.9 383.4,275.9 383.4,307.6C383.4,349.7 352.1,375.1 300.2,375.1ZM290.2,266.4L240.1,266.4L240.1,344.8L292.4,344.8C326.6,344.8 344.7,331.1 344.7,305.3C344.7,279.6 326.1,266.4 290.2,266.4Z" style="fill:url(#_Linear1);fill-rule:nonzero;stroke:rgb(110,17,244);stroke-width:1px;"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(506.803,-0.05,0.05,506.803,40.4757,256)"><stop offset="0" style="stop-color:rgb(141,19,253);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(108,17,244);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
